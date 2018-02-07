@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea Sign Up</title>
+	<meta name="description" content="AnalogSea Sign Up">
+	<!-- reset -->
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+	<!-- Link style sheet -->
+	<link rel="stylesheet" type="text/css" href="styles/sign-up.css">
+</head>
+<body>
+	<div class="logo">
+		<img src="images/logo.png" class="logo-img">
+	</div>
+	<section class="sign-up">
+		<div>
+			<h1>Sign up</h1>
+		</div>
+		<form action="/signup/" method="post" class="sign-up-form">
+		<fieldset name="sign-up">
+			<label for="email">Email</label>
+				<input type="email" name="email" id='email' placeholder="foo@bar.com" required>
+			<label for="password">Password</label>
+				<input type="text" name="password" id="password" placeholder="1234passw0rd" required>
+			
+		</fieldset>
+		<button type="submit">Sign Up</button>
+		</form>
+	</section>
+	<div class="log-in">Already have an account? <a href="/login">Log in</a></div>
+
+</body>
+</html>
